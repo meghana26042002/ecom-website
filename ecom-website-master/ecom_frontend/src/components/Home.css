@@ -1,0 +1,101 @@
+.v1 {
+    border-left: 1px solid gray;
+    height: 70%;
+    position: absolute;
+    padding-top: 10%;
+    margin-top: -0.2%;
+    left: 45%;
+    margin-left: -20%;
+}
+
+.list {
+    margin-top: -28%;
+    margin-left: 3%;
+}
+
+.img {
+    margin-left: 27%;
+    margin-top: 4%;
+    width: 68%;
+}
+
+.arrow {
+    font-size: 15px;
+    margin-left: 4%;
+}
+
+.arrow1 {
+    font-size: 15px;
+    margin-left: 5.5%;
+}
+
+@media only screen and (max-width: 1023px) {
+    .v1 {
+        border-left: 1px solid gray;
+        height: 55%;
+        position: absolute;
+        padding-top: 10%;
+        margin-top: -0.2%;
+        left: 46%;
+        margin-left: -20%;
+    }
+
+    .list {
+        margin-top: -16rem;
+        margin-left: 2%;
+        font-size: 0.8rem;
+    }
+
+    .img {
+        margin-left: 15rem;
+        margin-top: 3rem;
+        height: 15rem;
+        width: 26rem;
+    }
+
+    .arrow {
+        font-size: 15px;
+        margin-left: 4%;
+    }
+
+    .arrow1 {
+        font-size: 15px;
+        margin-left: 5.5%;
+    }
+}
+
+/* Media query for mobile devices (landscape and portrait orientation) */
+@media only screen and (min-width:319px) and (max-width: 767px) {
+    .v1 {
+        border-left: 1px solid gray;
+        height: 45%;
+        position: absolute;
+        padding-top: 10%;
+        margin-top: 0.5rem;
+        left: 45%;
+        margin-left: -20%;
+    }
+
+    .list {
+        margin-top: -10rem;
+        margin-left: -5%;
+        font-size: 0.5rem;
+    }
+
+    .img {
+        margin-left: 8rem;
+        margin-top: 2rem;
+        height: 10rem;
+        width: 18rem;
+    }
+
+    .arrow {
+        font-size: 15px;
+        margin-left: 4%;
+    }
+
+    .arrow1 {
+        font-size: 15px;
+        margin-left: 5.5%;
+    }
+}

@@ -1,0 +1,139 @@
+.l1 {
+    color: red;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 7rem;
+    margin-top: 0.1rem;
+}
+
+.v2 {
+    border-left: 20px solid red;
+    height: 7%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+    margin-left: 5%;
+}
+
+.days1 {
+    display: flex;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.days {
+    margin-top: 0.5rem;
+}
+
+.time {
+    margin-left: 5%;
+    margin-top: -2.5%;
+}
+
+.colon {
+    margin-left: 3%;
+    margin-top: -1.5%;
+}
+
+.fs {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: -5.2%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 1439px) {
+    .l1 {
+        color: red;
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: 0.5rem;
+    }
+
+    .v2 {
+        border-left: 20px solid red;
+        height: 7%;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+    }
+
+    .days1 {
+        display: flex;
+        margin-left: 25rem;
+        margin-top: 3rem;
+    }
+
+    .days {
+        margin-top: 0.5rem;
+    }
+
+    .time {
+        margin-left: 5%;
+        margin-top: -2.5%;
+    }
+
+    .colon {
+        margin-left: 3%;
+        margin-top: -1.5%;
+    }
+
+    .fs {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-top: -10%;
+        margin-left: 5%;
+    }
+}
+
+/* Media query for mobile devices (landscape and portrait orientation) */
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+    .l1 {
+        color: red;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: 13%;
+        margin-top: 0.5rem;
+    }
+
+    .v2 {
+        border-left: 20px solid red;
+        height: 5%;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: 0.5rem;
+        margin-left: 5%;
+    }
+
+    .days1 {
+        display: flex;
+        margin-left: 8.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .days {
+        margin-top: -0.2rem;
+        font-weight: 700;
+        font-size: 0.7rem;
+    }
+
+    .time {
+        margin-left: 5%;
+        font-size: 1rem;
+        margin-top: -2.5%;
+    }
+
+    .colon {
+        margin-left: 3%;
+        margin-top: -1.5%;
+    }
+
+    .fs {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: -13.2%;
+        margin-left: 5%;
+    }
+}

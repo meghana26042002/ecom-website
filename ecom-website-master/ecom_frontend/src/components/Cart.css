@@ -1,0 +1,163 @@
+/* .main {
+    background-color: aqua;
+} */
+
+.headline {
+
+    margin: 1rem;
+    font-size: 2rem;
+    font-Weight: 700;
+    text-Align: center;
+
+}
+
+.secondline {
+    margin: 1rem;
+    font-size: 2rem;
+    font-Weight: 500;
+    color: red;
+    text-Align: center;
+}
+
+.cart {
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-Wrap: wrap;
+
+}
+
+.cartstyle {
+
+    margin: 1rem;
+    position: relative;
+    border: 2px solid black;
+    padding: 25px;
+    color: rgb(29, 169, 233);
+}
+
+.cartimg {
+
+    width: 15rem;
+    height: 9rem;
+
+}
+
+.cartname {
+
+    font-Size: 1rem;
+
+}
+
+.delbtn {
+
+    position: absolute;
+    top: 5;
+    right: 5;
+    padding: 0.5rem;
+    background-Color: 'red';
+
+}
+
+/* Tablet styles */
+@media only screen and (max-width: 1023px) {
+    .headline {
+
+        margin: 1rem;
+        font-size: 1.5rem;
+        font-Weight: 700;
+        text-Align: center;
+
+    }
+
+    .secondline {
+        margin: 1rem;
+        font-size: 2rem;
+        font-Weight: 500;
+        color: red;
+        text-Align: center;
+    }
+
+    .cart {
+
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        flex-Wrap: wrap;
+
+    }
+
+    .cartstyle {
+
+        margin: 1rem;
+        position: relative;
+        border: 2px solid black;
+        padding: 10px;
+
+    }
+
+    .cartimg {
+
+        width: 8rem;
+        height: 5rem;
+
+    }
+
+    .cartname {
+
+        font-Size: 1rem;
+
+    }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    .headline {
+
+        /* margin: 0.5rem; */
+        font-size: 0.8rem;
+        font-Weight: 700;
+        text-Align: center;
+
+    }
+
+    .secondline {
+        margin: 1rem;
+        font-size: 1rem;
+        font-Weight: 500;
+        color: red;
+        text-Align: center;
+    }
+
+    .cart {
+
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        flex-Wrap: wrap;
+
+    }
+
+    .cartstyle {
+
+        margin: 0.1rem;
+        position: relative;
+        border: 2px solid black;
+        padding: 10px;
+
+    }
+
+    .cartimg {
+
+        width: 10rem;
+        height: 7rem;
+
+    }
+
+    .cartname {
+
+        font-Size: 0.5rem;
+
+    }
+}

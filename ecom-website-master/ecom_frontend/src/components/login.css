@@ -1,0 +1,196 @@
+.main {
+    align-items: center;
+    margin-left: 13rem;
+    background-attachment: gray;
+    /* background-image: url('./backimg.jfif'); */
+    background-size: cover;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.signup {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 6rem;
+}
+
+.sline {
+    margin-left: 3.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 5rem;
+}
+
+.name1 {
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 3rem;
+}
+
+.form-control {
+    width: 20rem;
+    border: 2px solid black;
+    margin-left: 10rem;
+}
+
+
+
+.form-text {
+    margin-left: 8rem;
+}
+
+.btn1 {
+    background-color: red;
+    display: flex;
+    width: 20rem;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    border-radius: 2px solid red;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 45rem;
+    height: 35rem;
+    margin-top: -58vh;
+}
+
+.login {
+    margin-left: 12rem;
+}
+
+
+
+@media only screen and (max-width:1439px) {
+    .btn1 {
+        background-color: red;
+        display: flex;
+        width: 15rem;
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 10rem;
+        border-radius: 2px solid red;
+    }
+
+    .form-control {
+        width: 15rem;
+        border: 2px solid black;
+        margin-right: 5rem;
+    }
+
+    .image {
+        width: 40rem;
+        height: 35rem;
+        margin-top: -48vh;
+    }
+
+    .main {
+        align-items: center;
+        margin-left: 28rem;
+        background-attachment: gray;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+}
+
+/*tablet*/
+@media only screen and (max-width:1023px) {
+    .btn1 {
+        background-color: red;
+        display: flex;
+        width: 15rem;
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 10rem;
+        border-radius: 2px solid red;
+    }
+
+    .image {
+        width: 30rem;
+        height: 35rem;
+        margin-top: -60%;
+    }
+
+    .main {
+        align-items: center;
+        margin-left: 25rem;
+        background-attachment: gray;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+
+}
+
+/*mobile*/
+@media only screen and (max-width:767px) {
+    .signup {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 400;
+        margin-left: -2rem;
+    }
+
+    .sline {
+        margin-left: -1rem;
+        font-size: 0.8rem;
+    }
+
+    .btn1 {
+        background-color: red;
+        display: flex;
+        width: 7rem;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 4rem;
+        border-radius: 2px solid red;
+    }
+
+    .form-control {
+        width: 10rem;
+        border: 2px solid black;
+        margin-left: 3rem;
+    }
+
+    .image {
+        width: 14rem;
+        height: 25rem;
+        margin-top: -90%;
+    }
+
+    .main {
+        align-items: center;
+        margin-left: 16rem;
+        background-attachment: gray;
+        background-size: cover;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+}

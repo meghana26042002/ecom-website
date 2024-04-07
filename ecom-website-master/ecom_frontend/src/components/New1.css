@@ -1,0 +1,296 @@
+.combo {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(191, 222, 236);
+}
+
+.i {
+    width: 13rem;
+    height: 8rem;
+    margin: 2.5rem;
+}
+
+.eh {
+    position: absolute;
+    top: -1;
+    right: 0;
+    padding: 0.5rem;
+
+}
+
+.e {
+    color: black;
+    margin-left: 1rem;
+}
+
+.hr {
+    color: black;
+    margin-left: 1rem;
+}
+
+.b {
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 5px;
+    top: 0.5rem;
+    left: 0.5rem;
+    padding: 0.5px;
+    border-Radius: 0.5rem;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    margin-left: 40rem;
+    border: 10px solid red;
+    border-radius: 10px;
+    width: 15rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .combo {
+        margin: 1rem;
+        position: relative;
+        padding: 0.2rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+
+    .i {
+        width: 200px;
+        height: 100px;
+    }
+
+    .eh {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .e {
+        margin-left: 0.5rem;
+    }
+
+    .hr {
+        color: black;
+        margin-left: 0.5rem;
+    }
+
+    .b {
+        background-color: red;
+        color: white;
+        position: absolute;
+
+        border-radius: 5px;
+        bottom: 10;
+        left: 0;
+        padding: 0.5px;
+        border-Radius: 0.5rem;
+    }
+
+    .button {
+        background-color: red;
+        color: white;
+        padding: 0.5rem;
+        margin-left: 20rem;
+        border: 10px solid red;
+        border-radius: 10px;
+        width: 10rem;
+    }
+
+}
+
+/* Media query for mobile devices (landscape and portrait orientation) */
+@media only screen and (max-width: 767px) {
+    .combo {
+        margin: 0.1rem;
+        position: relative;
+        padding: 0.1rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+
+    .i {
+        width: 100px;
+        height: 100px;
+    }
+
+    .eh {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .e {
+        color: black;
+        margin-left: 0.2rem;
+
+    }
+
+    .hr {
+        color: black;
+        margin-left: 0.2rem;
+    }
+
+    .b {
+        background-color: red;
+        color: white;
+        position: absolute;
+        border-radius: 5px;
+        bottom: 10;
+        left: 0;
+        padding: 0.5px;
+        border-Radius: 0.5rem;
+    }
+
+    .button {
+        background-color: red;
+        color: white;
+        padding: 0.2rem;
+        margin-left: 10rem;
+        border: 10px solid red;
+        border-radius: 10px;
+        width: 10rem;
+    }
+}
+
+/* .button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 10px solid red;
+    border-radius: 5px;
+    margin-left: 38%;
+    width: 10%;
+}
+.scroll
+{
+    margin-left: 5%;
+}
+.image
+{
+    padding: 50px;
+height: 8rem;
+}
+.heart
+{
+    position: absolute;
+    margin-left: -1.5%;
+    margin-top: 1%;
+}
+.eye
+{
+    position: absolute;
+    margin-left: -1.5%;
+    margin-top: 2.5%;
+}
+.btn
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin-left: -15%;
+    margin-top: 0.5%;
+    border-radius: 20px solid red;
+    border: 20px;
+}
+.h5
+{
+    margin-top: -0.1%;
+}
+.h6
+{
+    margin-top: -1%;
+}
+.scroll1
+{
+    margin-left: 25%;
+    margin-top: -20.6%;
+}
+.image1{
+   height: 8rem;
+    padding: 50px; 
+
+}
+.btn1
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin-left: -15.5%;
+    margin-top: 0.5%;
+    border-radius: 20px solid red;
+    border: 20px;
+    margin-bottom: 10%;
+}
+.h1
+{
+    margin-top: -0.1%;
+   
+}
+.h2
+{
+    margin-top: -1.5%;
+}
+.scroll2
+{
+    margin-left: 45%;
+    margin-top: -20.4%;
+}
+.h3{
+    margin-top: -0.1%;
+}
+.h4{
+    margin-top: -2%;
+}
+.image3
+{
+  padding: 50px;
+height: 8rem;
+}
+.btn2
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin-left: -14.5%;
+    margin-top: 0.5%;
+    border-radius: 20px solid red;
+    border: 20px;
+    margin-bottom: 10%;
+}
+.scroll3
+{
+margin-left: 65%;
+margin-top: -20.6%;
+}
+.image4
+{
+   padding: 50px; 
+    height: 8rem;
+}
+.btn3
+{
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin-left: -15.5%;
+    margin-top: 0.5%;
+    border-radius: 20px solid red;
+    border: 20px;
+    margin-bottom: 10%;
+}
+.h7{
+    margin-top: -0.1%;
+}
+.h8{
+    margin-top: -3%;
+} */

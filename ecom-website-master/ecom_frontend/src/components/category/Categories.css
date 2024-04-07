@@ -1,0 +1,113 @@
+.redlogo {
+    border-left: 20px solid red;
+    height: 4%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: -0.5rem;
+    margin-left: 1.5rem;
+}
+
+.horzline {
+    /*horizontal line code only*/
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rem 3rem 0;
+}
+
+.category {
+    display: flex;
+    overflow: scroll;
+    gap: 2.5rem;
+    margin: 3rem 2.5rem;
+
+}
+
+.iconstyle {
+
+    border: 2px solid black;
+    padding: 1rem 5rem;
+    display: flex;
+    flex-Direction: column;
+    align-Items: center;
+    background-color: rgb(191, 222, 236);
+}
+
+@media only screen and (max-width: 1023px) {
+    .redlogo {
+        border-left: 20px solid red;
+        height: 5%;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: -0.2rem;
+        margin-left: 1.5rem;
+    }
+
+    .horzline {
+        /*horizontal line code only*/
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 1rem 0;
+    }
+
+    .category {
+
+        display: flex;
+        overflow: scroll;
+        gap: 2.5rem;
+        margin: 1rem 0.5rem;
+
+    }
+
+    .iconstyle {
+
+        border: 2px solid black;
+        padding: 0.5rem 2rem;
+        display: flex;
+        flex-Direction: column;
+        align-Items: center;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .redlogo {
+        border-left: 20px solid red;
+        height: 5%;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: -0.2rem;
+        margin-left: 1.5rem;
+    }
+
+    .horzline {
+        /*horizontal line code only*/
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 1rem 0;
+    }
+
+    .category {
+
+        display: flex;
+        overflow: scroll;
+        gap: 0.5rem;
+        margin: 0.5rem 0.5rem;
+
+    }
+
+    .iconstyle {
+
+        border: 2px solid black;
+        padding: 0.1rem 1rem;
+        display: flex;
+        flex-Direction: column;
+        align-Items: center;
+
+    }
+}
